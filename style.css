@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    /*terá explicação*/
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+}
+
+div img {
+    width: 5rem;
+    height: auto;
+    margin-left: 1rem;
+    border-radius: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+
+}
+
+header ul {
+    display: flex;
+
+}
+
+header ul li {
+    margin-left: 30px;
+}
+
+#myVideo {
+    position: static;
+    /*fixed*/
+    /*terá explicação*/
+    width: 98.8vw;
+    height: 40%;
+}
+
+.content {
+    position: absolute;
+    /*terá explicação*/
+    margin-top: -40vh;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 98.8vw;
+    padding: 1vh;
+}
+
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+
+.sessao1 {
+    display: flex;
+    padding: 10vh;
+    background-color: rgba(0, 255, 255, 0.427);
+    color: black;
+}
+
+.sessao1 div p {
+    text-align: left;
+    margin: 0.5rem;
+    font-weight: 600;
+}
+
+#padre {
+    padding: 22vw;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    }
+    
+    #padre div {
+    background-color: olivedrab;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 5px 6px 2px rgba(0, 0, 0, 0.84);
+    flex-wrap: wrap;
+    }
+    
+    #padre div h1 {
+    font-size: 50px;
+    margin: 15px;
+    }
