@@ -87,6 +87,7 @@ header ul li {
     justify-content: center;
     gap: 40px;
     align-items: center;
+    background-color: lightblue;
     }
     
     #padre div {
@@ -101,4 +102,59 @@ header ul li {
     #padre div h1 {
     font-size: 50px;
     margin: 15px;
-    }
+}
+
+.sect {
+padding: 10vw;
+display: flex;
+gap: 10vw;
+background-color: aquamarine;
+align-items: center;
+}
+
+#forms {
+background-color: rgb(106, 160, 207);
+width: 500px;
+padding: 20px;
+border-radius: 40px;
+text-align: center;
+display: block;
+}
+
+#forms h2 {
+margin: 10px;
+margin-top: -5px;
+}
+
+.sect iframe {
+border-radius: 20px;
+}
+
+footer {
+padding: 5vw;
+background-color: beige;
+}
+
+footer {
+padding: 5vw;
+background-color: beige;
+}
+
+#list {
+display: flex;
+gap: 20px;
+justify-content: center;
+}
+
+#list a {
+    text-decoration: none;
+    list-style: none;
+color: black;
+}
+
+#list a:hover {
+    text-decoration: none;
+    list-style: none;
+    transition: 0.3s;
+color: rgb(125, 12, 12);
+}
